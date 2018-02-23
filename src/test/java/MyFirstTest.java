@@ -1,3 +1,6 @@
+import com.machinepublishers.jbrowserdriver.JBrowserDriver;
+import com.machinepublishers.jbrowserdriver.Settings;
+import com.machinepublishers.jbrowserdriver.Timezone;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,8 +26,8 @@ public class MyFirstTest {
     @Test
     public void myFirstTest() {
 
-        //driver.get("http://www.google.com");
-        driver.navigate().to("http://www.google.com");
+        driver.get("http://www.google.com");
+        //driver.navigate().to("http://www.google.com");
 
         driver.findElement(By.name("q")).sendKeys("webdriver");
         driver.findElement(By.name("btnK")).click();
