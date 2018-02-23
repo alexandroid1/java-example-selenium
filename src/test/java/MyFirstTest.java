@@ -1,6 +1,4 @@
-import com.machinepublishers.jbrowserdriver.JBrowserDriver;
-import com.machinepublishers.jbrowserdriver.Settings;
-import com.machinepublishers.jbrowserdriver.Timezone;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

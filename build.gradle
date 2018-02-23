@@ -15,7 +15,4 @@ dependencies {
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.9.1'
 
-    //com.machinepublishers : jbrowserdriver : 1.0.0-RC1
-    compile 'com.machinepublishers:jbrowserdriver:1.0.0-RC1'
-
 }
