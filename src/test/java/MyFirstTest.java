@@ -22,9 +22,13 @@ public class MyFirstTest {
 
     @Test
     public void myFirstTest() {
-        driver.get("http://www.google.com");
+
+        //driver.get("http://www.google.com");
+        driver.navigate().to("http://www.google.com");
+
         driver.findElement(By.name("q")).sendKeys("webdriver");
         driver.findElement(By.name("btnK")).click();
+
         //wait.until(titleIs("webdriver - Поиск в Google"));
         wait.until(titleContains("webdriver - "));
     }
